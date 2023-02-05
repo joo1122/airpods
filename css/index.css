@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+.apple_logo{
+    background: url('../img/globalnav_apple_image__b5er5ngrzxqq_large.svg') no-repeat 0 -12px;
+	width: 14px;
+	height: 16px;
+}
+.search {
+	background: url('../img/search_image.svg') no-repeat 0 -15px;
+	width: 14px;
+	height: 14px;
+    
+}
+.bag{
+    background: url('../img/bag.svg') no-repeat 0 -13px;
+	width: 13px;
+	height: 15px;
+   
+}
+header{
+    width: 100%;
+    background-color: rgb(40, 36, 36);
+    
+}
+.header-container{
+    width:70% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+    /* align-content: center; */
+    
+}
+.header-container > a {
+    margin: 5px;
+    padding: 8px;
+  
+}
+.nav{
+    display: flex;
+    color: white;
+    padding: 10px;
+    
+    
+}
+.nav a{
+   color: white;
+   padding:  18px;
+   font-size: 10px;
+}
+.secondheader{
+    width: 100%;
+    /* height: 150px; */
+   
+    background-color: antiquewhite;
+}
+.all_kind_of_airpods{
+    width: 50%;
+    /* height: 100px; */
+    /* background-color:yellow; */
+    margin: 0 auto;
+}
+.airpodslist{
+    width: 80px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: inline-block;
+
+    
+    margin-left: 15px;
+
+}
+.airpodslist > a > p{
+  font-size: 5px;
+  text-align: center;
+  
+
+}
+.airpodslist > a > img{
+    padding: 0 20px;
+    margin-bottom: 10PX;
+    align-content: center;
+}
+.event{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(246, 240, 240);
+}
+.event > p{
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+span > a{
+    color: rgb(112, 112, 241);
+    
+}
+span:hover{
+    text-decoration: underline;
+}
